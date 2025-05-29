@@ -1,0 +1,4 @@
+01-docker-terraform/1_terraform_gcp/terraform/terraform_basic/.terraform.lock.hcl
+01-docker-terraform/1_terraform_gcp/terraform/terraform_basic/terraform.tfstate
+01-docker-terraform/1_terraform_gcp/terraform/terraform_basic/terraform.tfstate.backup
+01-docker-terraform/1_terraform_gcp/terraform/terraform_basic/.terraform/providers/registry.terraform.io/hashicorp/google/5.6.0/windows_amd64/terraform-provider-google_v5.6.0_x5.exe
