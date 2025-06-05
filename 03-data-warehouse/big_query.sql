@@ -8,6 +8,7 @@ LIMIT 100;
 CREATE OR REPLACE EXTERNAL TABLE `taxi-rides-ny.nytaxi.external_yellow_tripdata`
 OPTIONS (
   format = 'CSV',
+	#changing name data file
   uris = ['gs://nyc-tl-data/trip data/yellow_tripdata_2019-*.csv', 'gs://nyc-tl-data/trip data/yellow_tripdata_2020-*.csv']
 );
 
@@ -27,6 +28,7 @@ SELECT * FROM taxi-rides-ny.nytaxi.external_yellow_tripdata;
 
 -- Impact of partition
 -- Scanning 1.6GB of data
+#changing name data file
 SELECT DISTINCT(VendorID)
 FROM taxi-rides-ny.nytaxi.yellow_tripdata_non_partitioned
 WHERE DATE(tpep_pickup_datetime) BETWEEN '2019-06-01' AND '2019-06-30';
