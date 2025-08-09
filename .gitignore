@@ -1,5 +1,3 @@
-01-docker-terraform/1_terraform_gcp/terraform/
-/Users/congvothe/DTC_NYTAXI/01-docker-terraform/1_terraform_gcp/terraform/terraform_with_variables/main.tf
 /Users/congvothe/DTC_NYTAXI/02-workflow-orchestration/docker/combined/ny_taxi_postgres_data
 **/terraform/*
 **/ny_taxi_postgres_data/*
