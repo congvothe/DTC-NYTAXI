@@ -15,5 +15,3 @@ ny_taxi_postgres_data/
 .history
 serving_dir
 .ipynb_checkpoints/
-terraform_basic/main.tf
-terraform_with_variables/variables.tf
