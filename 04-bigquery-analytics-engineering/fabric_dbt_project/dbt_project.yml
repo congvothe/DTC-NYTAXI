@@ -1,0 +1,29 @@
+name: 'fabric_dbt_project'
+version: '1.0'
+config-version: 2
+
+profile: fabric_dbt_project
+
+target-path: target
+clean-targets:
+  - "target"
+  - "dbt_modules"
+  - "dbt-pakages"
+dbt-cloud:
+    project-id: 70471823517868
+
+# Connection/profile configuration should be placed in your profiles.yml (e.g. ~/.dbt/profiles.yml) rather than dbt_project.yml.
+# Example profiles.yml entry (move the original connection block here and adjust as needed):
+# dbt-fabric:
+#   target: fabric-dev
+#   outputs:
+#     fabric-dev:
+#       type: fabric
+#       driver: "ODBC Driver 18 for SQL Server"
+#       server: "coay74bg6zte5idyig7ycs5yx4-tkh3my75mhmurf4lospp4oio3i.datawarehouse.fabric.microsoft.com"
+#       port: 1433
+#       database: "DTC-NY-Warehouse"
+#       schema: "dbt_ny"
+#       threads: 4
+#       authentication: "ActiveDirectoryInteractive"
+#       user: "congv@rnk6.onmicrosoft.com"
