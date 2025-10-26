@@ -4,6 +4,7 @@ ny_taxi_postgres_data/
 **.terraform.lock.*
 .DS_Store
 .idea
+*.tf
 *.tfstate
 *.tfstate.*
 *.tfplan
@@ -15,3 +16,7 @@ ny_taxi_postgres_data/
 .history
 serving_dir
 .ipynb_checkpoints/
+*.csv*
+*.parquet*
+04-bigquery-analytics-engineering/docker/DTC_NYTAXI.code-workspace
+04-bigquery-analytics-engineering/docker/profile.yaml
